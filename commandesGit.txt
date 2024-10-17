@@ -1,0 +1,5 @@
+git init
+git branch
+git checkout
+git branch -d
+git config --global user.name

@@ -6,12 +6,17 @@
 apt-get update
 
 ## Verification installation Java
+```bash
 java --version
-sudo update-alternatives --config java *** Pour choisir version si plusieurs installes**
 
+# Pour choisir version si plusieurs installes**
+sudo update-alternatives --config java 
+```
 ## telecharger tomcat et l'extraire
+```bash
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.31/bin/apache-tomcat-10.1.31.tar.gz
 sudo tar -xvzf apache-tomcat-10.1.31.tar.gz
+```
 
 ## Creation utiisateur specifique avec droit limites
 sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
